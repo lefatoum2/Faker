@@ -1,4 +1,8 @@
 # Faker
+## Objectif
+
+Créer de fausses données aléatoires et les enregistrer dans un fichier CSV.
+
 
 ```Python
 import pandas as pd
