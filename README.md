@@ -19,7 +19,7 @@ COUNT = 100
 def generate_names(count, type):
 # Création d'une liste
     item_list = []
-    # Mise en place de conditions selon le type de données
+# Mise en place de conditions selon le type de données
     for i in range(count):
         if (type == 'name'):
             c_item = faker.name()
