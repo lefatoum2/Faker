@@ -43,7 +43,7 @@ def generate():
     address_list = generate_names(COUNT, 'address')
     job_list = generate_names(COUNT, 'job')
     phone_number_list = generate_names(COUNT, 'phone_number')
-
+# Création du dataframe à partir des listes crées
     data = pd.DataFrame({
         'username': username_list,
         'address': address_list,
@@ -56,8 +56,11 @@ def generate():
 
 
 def run():
+    # génération de données
     data = generate()
+    # Affichage de données
     print(data)
+    # Enregistrement dans un csv
     data.to_csv('./users.csv')
 
 
