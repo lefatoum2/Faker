@@ -12,11 +12,14 @@ from faker import Faker
 
 faker = Faker('fr_FR')
 
+# Nombre de features
 COUNT = 100
 
 
 def generate_names(count, type):
+# Création d'une liste
     item_list = []
+    # Mise en place de conditions selon le type de données
     for i in range(count):
         if (type == 'name'):
             c_item = faker.name()
@@ -35,7 +38,7 @@ def generate_names(count, type):
 
 def generate():
     global faker
-
+# génération d'une liste de username, d'adresses, de travail, de numéro de téléphone
     username_list = generate_names(COUNT, 'name')
     address_list = generate_names(COUNT, 'address')
     job_list = generate_names(COUNT, 'job')
