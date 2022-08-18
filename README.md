@@ -1,4 +1,7 @@
 # Faker
+
+![img1](https://images.unsplash.com/photo-1618590067824-5ba32ca76ce9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)
+
 ## Objectif
 
 Créer de fausses données aléatoires et les enregistrer dans un fichier CSV.
